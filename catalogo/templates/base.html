@@ -1,0 +1,23 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+
+   <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+</head>
+<body>
+     <img src="{% static 'img/logo01.png' %}" class="image-menu">
+    <div class="menu"> MENÚ </div>
+
+
+    {% block contenido %}
+
+
+
+    {% endblock contenido %}
+    
+</body>
+</html>
